@@ -1,0 +1,44 @@
+:root {
+  --base: #e68a00;
+  --spacing: 10px;
+  --blur: 1px;
+  --border-radius: 10%;
+  --width: 10%;
+  --height: 10%;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  -webkit-filter: blur(var(--blur));
+  border-radius: var(--border-radius);
+  width: var(--width);
+  height: var(--height);
+}
+
+.hl {
+  color: var(--base);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background: #333300;
+  color: white;
+  font-family: "PT Mono", monospace;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+  margin-top: 20px;
+}
